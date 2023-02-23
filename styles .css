@@ -246,7 +246,7 @@ body{
         width: 80%;
         color: white;
         text-align: center;
-        margin-left: 45px;
+        margin-left: 40px;
         margin-top: 10px;
     }
     .display-text h1{
@@ -267,6 +267,27 @@ body{
     .yo{
         height: 50px;
         width: 100px;
+    }
+    .gallery-img{
+        transition: none;
+    }
+    .gallery-img:hover{
+        transform: none;
+    }
+    .first-row{
+        transform: none;
+        opacity: 0;
+        transition: none;
+    }
+    .second-row{
+        transform: none;
+        opacity: 0;
+        transition: none;
+    }
+    
+    .change .first-row, .change .second-row{
+        transform: none;
+        opacity: 1;
     }
     .book{
         width:35%;
