@@ -26,11 +26,11 @@
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav fs-5 fw-semibold mx-5 ">
-                  <a class="nav-link mx-4 text-white " aria-current="page" href="#">Home</a>
-                  <a class="nav-link mx-4 text-white " href="#">About Us</a>
-                  <a class="nav-link mx-4 text-white " href="#">Library</a>
-                  <a class="nav-link mx-4 text-white " href="#">Deals</a>
-                  <a class="nav-link mx-4 text-white " href="#">Contact</a>
+                  <a class="nav-link mx-4 text-white " style="text-decoration: underline; background-color: black;" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link mx-4 text-white " href="about.html">About Us</a>
+                  <a class="nav-link mx-4 text-white " href="#deals">Deals</a>
+                  <a class="nav-link mx-4 text-white " href="#library">Library</a>
+                  <a class="nav-link mx-4 text-white " href="contact.html">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -40,7 +40,7 @@
             The Best Libraries That Every Book Lover Must Visit !
           </h1>
           <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, aspernatur. Reiciendis autem nostrum rem quas, quasi quod voluptate, enim eligendi esse doloremque et.</p>
-          <button type="button" class="btn btn-outline-light btn-lg">Check-Out</button>
+          <a href="#deals"><button type="button" class="btn btn-outline-light btn-lg">Check-Out</button></a>
 
           <div class="mx-2 icons pt-5 ">
             <a href="#" target="_blank">
@@ -117,7 +117,7 @@
     </section>
 
 
-    <section class="famous-writers pb-5">
+    <section class="famous-writers pb-5" id="library">
       <div class="container-fluid">
         <div class="row">
           <div class="col text-center py-5">
@@ -170,7 +170,7 @@
                 </div>
               </div>
             </div>
-            <div class="card">
+            <div class="card" >
               <div class="card-header p-5">
                 <button type="button" class="btn btn-block btn-outline-danger" data-bs-toggle="collapse" data-bs-target="#collapseThree" id="button-Charles_Dickens">Charles Dickens</button>
               </div>
@@ -221,7 +221,7 @@
     </section>
 
 
-    <section class="suggested-books">
+    <section class="suggested-books" id="sb">
       <div class="container-fluid " >
         <div class="row" id="suggested">
           <div class="col text-center py-5">
@@ -243,7 +243,7 @@
     </section>
 
 
-    <section class="popular-books p-5">
+    <section class="popular-books p-5" id="deals" >
       <div class="popular container-fluid">
         <div class="row">
           <div class="col text-center py-5 ">
@@ -278,7 +278,7 @@
                   <p>
                     <del>Rs:700</del>
                   </p>
-                  <a href="#" class="btn btn-outline-danger px-4">Buy Now</a>
+                  <a href="#deals" class="btn btn-outline-danger px-4">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -307,7 +307,7 @@
                   <p>
                     <del>Rs:650</del>
                   </p>
-                  <a href="#" class="btn btn-outline-danger px-4">Buy Now</a>
+                  <a href="#deals" class="btn btn-outline-danger px-4">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -336,7 +336,7 @@
                   <p>
                     <del>Rs:800</del>
                   </p>
-                  <a href="#" class="btn btn-outline-danger px-4">Buy Now</a>
+                  <a href="#deals" class="btn btn-outline-danger px-4">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -345,54 +345,7 @@
     </section>
 
 
-    <section class="contact py-5">
-      <div class="container-fluid ">
-        <div class="row  ">
-          <div class="col-xl-5 col-md-8 col-10 mx-auto mb-4 ">
-            <div class="row items-wrapper py-3 align-items-center text-center ">
-              <div class="col-sm-5 col-8 floating-item first-item mx-auto my-4 p-2">
-                <a href="#" class="text-light"><i class="fab fa-facebook"> Connect by Facebook</i></a>
-              </div>
-              <div class="col-sm-5 col-8 floating-item second-item mx-auto my-4 p-2">
-                <a href="#" class="text-light"><i class="fab fa-instagram "> Share 50K</i></a>
-              </div>
-              <div class="col-sm-5 col-8 floating-item third-item mx-auto my-4 p-3">
-                <div class="text-light">
-                  <h4>
-                    New Books
-                  </h4>
-                  <p>
-                    Introduce to New Stories
-                  </p>
-                  <a href="#" class="text-danger me-3">More Books</a>
-                  <a href="#" class="text-danger">Popular Books</a>
-                </div>
-              </div>
-              <div class="col-sm-5 col-8 floating-item fourth-item mx-auto my-4 p-2">
-                <div class="text-light">
-                  <p>Sale will be expired soon</p>
-                  <a href="#" class="text-danger">Buy Now</a>
-                </div>
-              </div>
-              <div class="col-sm-5 col-8 floating-item fifth-item mx-auto my-4 p-2">
-                <a href="#" class="text-light"><i class="fas fa-book"> Read Online</i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-5 col-md-8 col-10 mx-auto">
-            <h1 class="text-light fw-light text-center mb-5">Stay Connected</h1>
-            <form class="contact-form">
-              <div class="form-group">
-                <input type="text" class="form-control py-2 mb-2 " placeholder="Name">
-                <input type="email" class="form-control py-2 mb-2" placeholder="Email">
-                <textarea class="form-control mb-3" placeholder="Message" rows="3"></textarea>
-                <input type="submit" class="btn btn-outline-danger form-control ">
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
 
     <footer class="bg-dark">
