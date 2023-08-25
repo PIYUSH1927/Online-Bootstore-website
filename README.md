@@ -1,2 +1,2 @@
-# Online-Bootstore-Home-Page
+# Online-Bootstore-website
 website made using htlm, css, js and jquery
